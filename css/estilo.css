@@ -1,0 +1,178 @@
+/* CSS */
+
+
+body, html, #home {
+	height: 100%;
+	overflow-x: hidden;
+}
+
+body {
+	background: url('../imagens/capa.png'),
+				url('../imagens/ruido.png'),
+				linear-gradient(50deg, #ff4169, #7c26f8);
+	background-attachment: fixed;
+	font-family: sans-serif;
+}
+
+h2 {
+	font-size: 3em;
+	letter-spacing: -0.04;
+	font-weight: 700;
+}
+
+h3 {
+	font-size: 2em;
+	letter-spacing: -0.04;
+	font-weight: 700;
+}
+
+nav.nav-transparente {
+	padding: 10px 10px;
+	background: rgba(0,0,0,0.6);
+}
+
+footer {
+	background: #1C1C1C;
+	padding: 20px 0px 50px 0px;
+	position: relative;
+}
+
+footer h4 {
+	color: #919496;
+	font-size: 0.8em;
+}
+
+footer .navbar-nav a {
+	color: #fff;
+	font-size: 0.8em;
+}
+
+footer .navbar-nav a:hover {
+	color: #9bf0e1;
+	text-decoration: none;
+}
+
+footer ul {
+	list-style-type: none;
+}
+
+footer ul li {
+	float: right;
+	padding: 5px 10px;
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+
+@media (max-width: 575.9px) {
+	.btn-custom {
+		margin: 10px 15px;
+	}
+}
+
+@media (min-width: 576px) {
+	#cap h1 {
+		font-size: 2em;
+	}
+}
+	
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+	#cap h1 {
+		font-size: 3em;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	#cap h1 {
+		font-size: 4em;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	#cap h1 {
+		font-size: 5em;
+	}
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255);
+}
+
+.navbar-dark .navbar-toggler {
+    color: rgba(255,255,255);
+    border-color: rgba(255,255,255);
+}
+
+.btn-custom {
+	color: #fff;
+	border-radius: 500px;
+	-webkit-border-radius: 500px;
+   	-moz-border-radius: 500px;
+   	-ms-border-radius: 500px;
+   	-o-border-radius: 500px;
+   	transition: background 4s, color 3s;
+   	text-transform: uppercase;
+   	font-weight: 500;
+}
+
+.btn-roxo {
+	background: #7c25f8;
+}
+
+.btn-roxo:hover {
+	background: #6207e3;
+	color: #fff;
+}
+
+.btn-branco {
+	border: 2px solid #fff;
+}
+
+.btn-branco:hover {
+	background: #fff;
+	color: #000000;
+}
+
+.albuns {
+	padding: 10px 0;
+}
+
+.rotacionar {
+	transform: rotate(30deg);
+	padding-left: 80px;
+}
+
+.carousel-control-prev, .carousel-control-next {
+	width: 5%;
+}
+
+
+#cap {
+	text-align: center;
+}
+
+#cap h1 {
+	letter-spacing: -0.05em;
+	color: #fff;
+	font-weight: bold;
+}
+
+#conteudos {
+	background: #fff;
+	padding: 20px 0;
+}
+
+#servicos h2, h3 {
+	color: #7c25f8;
+}
+
+#funcionalidade {
+	color: #fff;
+	padding: 20px 0;
+}
+
+#funcionalidade h3 {
+	color: #9bf0e1;
+}
